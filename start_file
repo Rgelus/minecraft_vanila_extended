@@ -1,0 +1,1 @@
+ docker run -d --name mine_server -p 25565:25565 -v /home/rgel/minecraft_servers/minecraft_vanila_extended/minecraft-server:/minecraft-server --restart unless-stopped minecraft_vanila_extended

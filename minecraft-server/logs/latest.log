@@ -1,0 +1,318 @@
+[13:23:12] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[13:23:12] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[13:23:12] [main/INFO]: Loading 117 mods:
+	- architectury 13.0.8
+	- balm-fabric 21.0.20
+	   \-- kuma_api 21.0.5-SNAPSHOT
+	- easyauth 3.0.25
+	   |-- at_favre_lib_bcrypt 0.10.2
+	   |-- at_favre_lib_bytes 1.6.1
+	   |-- com_mysql_mysql-connector-j 8.2.0
+	   |-- com_typesafe_config 1.4.3
+	   |-- de_mkammerer_argon2-jvm 2.11
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.11
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- net_java_dev_jna_jna 5.13.0
+	   |-- org_apache_commons_commons-text 1.10.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_mongodb_bson 4.11.1
+	   |-- org_mongodb_mongodb-driver-core 4.11.1
+	   |-- org_mongodb_mongodb-driver-sync 4.11.1
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   |-- org_spongepowered_configurate-hocon 4.1.2
+	   \-- server_translations_api 2.3.1+1.21-pre2
+	- fabric-api 0.108.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.70+b559734419
+	   |-- fabric-biome-api-v1 13.0.30+be1ed2d719
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.18+b559734419
+	   |-- fabric-convention-tags-v1 2.1.2+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.9.2+e60e56d419
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.3.0+8e331c5719
+	   |-- fabric-data-generation-api-v1 20.2.23+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.1+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.6+6823f7cd19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.5.0+01d9a51c19
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.13+6508971219
+	   |-- fabric-registry-sync-v0 5.1.3+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.87+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.2+95bead5f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.9
+	- fallingtree 1.21.1.2
+	- farmersdelight 1.21.1-2.2.3+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_base 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_common 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_conditions 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_config 3.1.0-fdrf.4+1.21.1
+	   |    |-- com_electronwill_night-config_core 3.8.0
+	   |    |-- com_electronwill_night-config_toml 3.8.0
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_core 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_entity 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_extensions 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_gui_utils 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_item_abilities 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_lazy_registration 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_level_events 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_loot 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_recipe_book_categories 3.1.0-fdrf.4+1.21.1
+	   |    \-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_tags 3.0
+	   |    \-- mixinextras 0.5.0-beta.3
+	   \-- porting_lib_transfer 3.1.0-fdrf.4+1.21.1
+	        \-- mixinextras 0.5.0-beta.3
+	- fwaystones 3.3.4+mc1.21.1
+	- immersive_aircraft 1.1.5+1.21.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- jamlib 1.2.2+1.21.1
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- journeymap 1.21.1-6.0.0-beta.29
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.16-1.21.1
+	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
+	- minecraft 1.21.1
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- nullscape 1.2.9
+	- owo 0.12.10+1.21
+	   |-- io_wispforest_endec 0.1.0
+	   |-- io_wispforest_endec_gson 0.1.0
+	   |-- io_wispforest_endec_jankson 0.1.0
+	   \-- io_wispforest_endec_netty 0.1.0
+	- rightclickharvest 4.4.3+1.21.1
+	- seasons 2.4.2-BETA+1.21
+	- seasonsdelightcompat 1.0-1.3.9
+	- smallships 2.0.0-b2.1
+	   \-- forgeconfigapiport 21.1.0
+	        |-- com_electronwill_night-config_core 3.8.0
+	        \-- com_electronwill_night-config_toml 3.8.0
+	- universal-graves 3.4.4+1.21
+	   |-- common-protection-api 1.0.0
+	   |-- placeholder-api 2.4.1+1.21
+	   |-- polymer-core 0.9.14+1.21.1
+	   |    |-- polymer-networking 0.9.14+1.21.1
+	   |    |    \-- polymer-common 0.9.14+1.21.1
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.14+1.21.1
+	   |-- polymer-resource-pack 0.9.14+1.21.1
+	   |    \-- polymer-common 0.9.14+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-virtual-entity 0.9.14+1.21.1
+	   |    \-- polymer-common 0.9.14+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   |-- predicate-api 0.5.1+1.21
+	   |-- server_translations_api 2.3.1+1.21-pre2
+	   \-- sgui 1.6.0+1.21
+[13:23:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:23:12] [main/INFO]: Compatibility level set to JAVA_16
+[13:23:12] [main/INFO]: Compatibility level set to JAVA_17
+[13:23:12] [main/INFO]: Compatibility level set to JAVA_21
+[13:23:12] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:12] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:12] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found owo.mixins.json:ClientCommonNetworkHandlerAccessor from mod owo
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[13:23:13] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock)
+[13:23:13] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingBushBlock was not found seasonsdelightcompat.mixins.json:BuddingBushBlockMixin from mod seasonsdelightcompat
+[13:23:13] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock)
+[13:23:13] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingTomatoBlock was not found seasonsdelightcompat.mixins.json:BuddingTomatoBlockMixin from mod seasonsdelightcompat
+[13:23:13] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock)
+[13:23:13] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.MushroomColonyBlock was not found seasonsdelightcompat.mixins.json:MushroomColonyBlockMixin from mod seasonsdelightcompat
+[13:23:13] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock)
+[13:23:13] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.RiceCropBlock was not found seasonsdelightcompat.mixins.json:RiceCropBlockMixin from mod seasonsdelightcompat
+[13:23:13] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock)
+[13:23:13] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.TomatoVineBlock was not found seasonsdelightcompat.mixins.json:TomatoVineBlockMixin from mod seasonsdelightcompat
+[13:23:13] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[13:23:13] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[13:23:13] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[13:23:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
+[13:23:21] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[13:23:21] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[13:23:21] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[13:23:22] [main/INFO]: Is initializing.
+[13:23:22] [main/INFO]: Has successfully been initialized.
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[13:23:22] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[13:23:22] [main/INFO]: Initializing JamLib on Fabric
+[13:23:22] [main/INFO]: Initializing ServerSide Packet Registries
+[13:23:22] [main/INFO]: Definitely not up to no good
+[13:23:22] [main/INFO]: chyz: now i just need to painstakingly move jerry (the little tiny lil fella tiny guy man button) to correct spot when recipe book is opened
+[13:23:22] [main/INFO]: Updated config file at /minecraft-server/config/rightclickharvest.json5
+[13:23:22] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[13:23:22] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[13:23:22] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[13:23:22] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[13:23:22] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsdelightcompat 1.0 for farmersdelight 1.3.9
+[13:23:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:23:25] [main/INFO]: Loaded 1684 recipes
+[13:23:25] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[13:23:25] [main/INFO]: Loaded 1696 advancements
+[13:23:25] [main/INFO]: [Fabric Seasons] Successfully loaded 33 custom crop configs.
+[13:23:25] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 93 translation keys
+[13:23:26] [main/INFO]: Applied 79 biome modifications to 43 of 67 new biomes in 7.626 ms
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/flower_forest_japanese/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/flower_forest_japanese/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert_oasis/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/desert_oasis/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain_alpine/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/mountain_alpine/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/beach_lighthouse/side
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/beach_lighthouse/side as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna_na/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/savanna_na/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/swamp/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/snowy_igloo/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/snowy_igloo/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/nilotic/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/nilotic/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/badlands_pueblo/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/badlands_pueblo/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/tudor/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/tudor/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mushroom/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/mushroom/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/mediterranean/houses/regular
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/mediterranean/houses/regular as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/birch_forest_romanian/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/birch_forest_romanian/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa_fortified/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/mesa_fortified/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/classic/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/classic/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/wandering_trader_camp/side
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/wandering_trader_camp/side as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/desert/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/rustic/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/rustic/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/savanna/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/beach/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/beach/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/taiga/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:stone_brick_village_waystone to village ctov:village/underground/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/underground/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/mesa/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/grove_villager_outpost/decor
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/grove_villager_outpost/decor as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/jungle/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/mountain/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/halloween/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/halloween/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/jungle_tribal/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/jungle_tribal/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/iberian/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/iberian/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/christmas/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/christmas/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/plains/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp_fortified/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/swamp_fortified/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains_fortified/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/plains_fortified/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga_fortified/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/taiga_fortified/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/swedish/houses
+[13:23:26] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/swedish/houses as it cannot be found!
+[13:23:26] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle_tree/house
+[13:23:26] [Server thread/ERROR]: Cannot add to ctov:village/jungle_tree/house as it cannot be found!
+[13:23:26] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[13:23:26] [Server thread/INFO]: Loading properties
+[13:23:26] [Server thread/INFO]: Default game type: SURVIVAL
+[13:23:26] [Server thread/INFO]: Generating keypair
+[13:23:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:23:26] [Server thread/INFO]: Using epoll channel type
+[13:23:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:23:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:23:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:23:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:23:26] [Server thread/INFO]: Preparing level "world"
+[13:23:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:23:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:23:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:23:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:23:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:23:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:23:30] [Server thread/INFO]: Time elapsed: 2360 ms
+[13:23:30] [Server thread/INFO]: Done (4.113s)! For help, type "help"
+[13:23:30] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[13:23:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@3531ce4f for service interface journeymap.api.services.ClientPlatformService
+[13:23:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@1312071d for service interface journeymap.api.services.CommonPlatformService

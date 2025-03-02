@@ -1,0 +1,214 @@
+---- Minecraft Chunk IO Error Report ----
+// Pirates stole your chunk!
+
+Time: 2024-12-02 19:21:00
+Description: Chunk save failure
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1937.method_30349()" because "this.field_11863" is null
+	at knot//wraith.fwaystones.block.WaystoneBlockEntity.createTag(WaystoneBlockEntity.java:177)
+	at knot//wraith.fwaystones.block.WaystoneBlockEntity.method_11007(WaystoneBlockEntity.java:161)
+	at knot//net.minecraft.class_2586.method_38244(class_2586.java:125)
+	at knot//net.minecraft.class_2586.method_38242(class_2586.java:105)
+	at knot//net.minecraft.class_2839.method_20598(class_2839.java:288)
+	at knot//net.minecraft.class_2852.method_12410(class_2852.java:331)
+	at knot//net.minecraft.class_3898.method_17228(class_3898.java:784)
+	at knot//net.minecraft.class_3898.method_60440(class_3898.java:511)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at knot//net.minecraft.class_3898.method_20605(class_3898.java:483)
+	at knot//net.minecraft.class_3898.method_17233(class_3898.java:441)
+	at knot//net.minecraft.class_3215.method_12127(class_3215.java:314)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:350)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at knot//net.minecraft.class_3176.method_3813(class_3176.java:299)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-804
+Stacktrace:
+	at knot//wraith.fwaystones.block.WaystoneBlockEntity.createTag(WaystoneBlockEntity.java:177)
+	at knot//wraith.fwaystones.block.WaystoneBlockEntity.method_11007(WaystoneBlockEntity.java:161)
+	at knot//net.minecraft.class_2586.method_38244(class_2586.java:125)
+	at knot//net.minecraft.class_2586.method_38242(class_2586.java:105)
+	at knot//net.minecraft.class_2839.method_20598(class_2839.java:288)
+	at knot//net.minecraft.class_2852.method_12410(class_2852.java:331)
+	at knot//net.minecraft.class_3898.method_17228(class_3898.java:784)
+	at knot//net.minecraft.class_3898.method_60440(class_3898.java:511)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at knot//net.minecraft.class_3898.method_20605(class_3898.java:483)
+	at knot//net.minecraft.class_3898.method_17233(class_3898.java:441)
+	at knot//net.minecraft.class_3215.method_12127(class_3215.java:314)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:350)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at knot//net.minecraft.class_3176.method_3813(class_3176.java:299)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: chunk
+	Position: [-31, 60]
+Stacktrace:
+	at knot//net.minecraft.server.MinecraftServer.method_61088(MinecraftServer.java:2008)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-39-generic
+	Java Version: 21.0.5, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 2092435104 bytes (1995 MiB) / 4496293888 bytes (4288 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 60 Stepping 3
+	Microarchitecture: Haswell (Client)
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: 4th Gen Core Processor Integrated Graphics Controller
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x0416
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 12034.35
+	Virtual memory used (MiB): 5963.35
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 272926.06, total: 301290.81
+	Space in storage for workdir (MiB): available: 599749.31, total: 633401.00
+	JVM Flags: 1 total; -Xmx8G
+	Fabric Mods: 
+		architectury: Architectury 13.0.8
+		balm-fabric: Balm 21.0.20
+			kuma_api: KumaAPI 21.0.5-SNAPSHOT
+		easyauth: Easy Authentication Mod 3.0.25
+			at_favre_lib_bcrypt: bcrypt 0.10.2
+			at_favre_lib_bytes: bytes 1.6.1
+			com_mysql_mysql-connector-j: mysql-connector-j 8.2.0
+			com_typesafe_config: config 1.4.3
+			de_mkammerer_argon2-jvm: argon2-jvm 2.11
+			de_mkammerer_argon2-jvm-nolibs: argon2-jvm-nolibs 2.11
+			fabric-permissions-api-v0: fabric-permissions-api 0.3.1
+			io_leangen_geantyref_geantyref: geantyref 1.3.13
+			net_java_dev_jna_jna: jna 5.13.0
+			org_apache_commons_commons-text: commons-text 1.10.0
+			org_iq80_leveldb_leveldb: leveldb 0.12
+			org_iq80_leveldb_leveldb-api: leveldb-api 0.12
+			org_mongodb_bson: bson 4.11.1
+			org_mongodb_mongodb-driver-core: mongodb-driver-core 4.11.1
+			org_mongodb_mongodb-driver-sync: mongodb-driver-sync 4.11.1
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		fabric-api: Fabric API 0.108.0+1.21.1
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8c19
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.70+b559734419
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.30+be1ed2d719
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.22+0af3f5a719
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.10+6573ed8c19
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.18+b559734419
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.2+7f945d5b19
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.9.2+e60e56d419
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.3.0+8e331c5719
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.23+16c4ae2519
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b9919
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.7.0+2122d82819
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+			fabric-item-api-v1: Fabric Item API (v1) 11.1.1+d5debaed19
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.6+6823f7cd19
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.5.0+01d9a51c19
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.15+3f89f5a519
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.3+3f89f5a519
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.13+6573ed8c19
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.1+40875a9319
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.13+6508971219
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.1.3+60c3209b19
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.1+5b5275af19
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.87+b559734419
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.2+95bead5f19
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.1.0+1daea21519
+		fabricloader: Fabric Loader 0.16.9
+		fallingtree: FallingTree 1.21.1.2
+		farmersdelight: Farmer's Delight 1.21.1-2.2.3+refabricated
+			mm: Manningham Mills 2.3
+			porting_lib_accessors: Porting Lib Accessors 3.1.0-fdrf.4+1.21.1
+				mixinextras: MixinExtras 0.5.0-beta.3
+			porting_lib_base: Porting Lib Base 3.1.0-fdrf.4+1.21.1
+			porting_lib_common: Porting Lib Common 3.1.0-fdrf.4+1.21.1
+			porting_lib_conditions: Porting Lib Conditions 3.1.0-fdrf.4+1.21.1
+			porting_lib_config: Porting Lib Config 3.1.0-fdrf.4+1.21.1
+			porting_lib_core: Porting Lib Core 3.1.0-fdrf.4+1.21.1
+			porting_lib_entity: Porting Lib Entity 3.1.0-fdrf.4+1.21.1
+			porting_lib_extensions: Porting Lib Extensions 3.1.0-fdrf.4+1.21.1
+			porting_lib_gui_utils: Porting Lib Gui Utils 3.1.0-fdrf.4+1.21.1
+			porting_lib_item_abilities: Porting Lib Item Abilities 3.1.0-fdrf.4+1.21.1
+			porting_lib_lazy_registration: Porting Lib Lazy Register 3.1.0-fdrf.4+1.21.1
+			porting_lib_level_events: Porting Lib Level Events 3.1.0-fdrf.4+1.21.1
+			porting_lib_loot: Porting Lib Loot 3.1.0-fdrf.4+1.21.1
+			porting_lib_recipe_book_categories: Porting Lib Recipe Book Categories 3.1.0-fdrf.4+1.21.1
+			porting_lib_tags: Porting Lib Tags 3.0
+			porting_lib_transfer: Porting Lib Transfer 3.1.0-fdrf.4+1.21.1
+		fwaystones: Fabric Waystones 3.3.4+mc1.21.1
+		immersive_aircraft: Immersive Aircraft 1.1.5+1.21.1
+			org_mariuszgromada_math_mathparser_org-mxparser: MathParser.org-mXparser 5.2.1
+		jamlib: JamLib 1.2.2+1.21.1
+			blue_endless_jankson: jankson 1.2.3
+		java: OpenJDK 64-Bit Server VM 21
+		journeymap: Journeymap 1.21.1-6.0.0-beta.29
+			ar_com_hjg_pngj: pngj 2.1.0
+			commonnetworking: Common Network 1.0.16-1.21.1
+			journeymap-api-fabric: JourneyMap API 2.0.0-1.21.1-SNAPSHOT
+		minecraft: Minecraft 1.21.1
+		mr_dungeons_andtaverns: Dungeons and Taverns 1-v4.4.4
+		nullscape: Nullscape 1.2.9
+		owo: oωo 0.12.10+1.21
+			io_wispforest_endec: endec 0.1.0
+			io_wispforest_endec_gson: gson 0.1.0
+			io_wispforest_endec_jankson: jankson 0.1.0
+			io_wispforest_endec_netty: netty 0.1.0
+		rightclickharvest: Right Click Harvest 4.4.3+1.21.1
+		seasons: Fabric Seasons 2.4.2-BETA+1.21
+		seasonsdelightcompat: Fabric Seasons: Delight Compat 1.0-1.3.9
+		smallships: Small Ships 2.0.0-b2.1
+			forgeconfigapiport: Forge Config API Port 21.1.0
+				com_electronwill_night-config_core: core 3.8.0
+				com_electronwill_night-config_toml: toml 3.8.0
+		universal-graves: Universal Graves 3.4.4+1.21
+			common-protection-api: Common Protection API 1.0.0
+			placeholder-api: Placeholder API 2.4.1+1.21
+			polymer-core: Polymer (Core) 0.9.14+1.21.1
+				polymer-networking: Polymer (Networking) 0.9.14+1.21.1
+				polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.9.14+1.21.1
+			polymer-resource-pack: Polymer (Resource Pack) 0.9.14+1.21.1
+			polymer-virtual-entity: Polymer (Virtual Entity) 0.9.14+1.21.1
+				polymer-common: Polymer (Common) 0.9.14+1.21.1
+					packet_tweaker: Packet Tweaker 0.5.5+1.21
+			predicate-api: Predicate API 0.5.1+1.21
+			server_translations_api: Server Translations API 2.3.1+1.21-pre2
+			sgui: sgui 1.6.0+1.21
